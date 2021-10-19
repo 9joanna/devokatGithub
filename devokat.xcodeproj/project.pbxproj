@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		57407575271E680400EBB494 /* Eye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57407574271E680400EBB494 /* Eye.swift */; };
 		57407578271E6B5C00EBB494 /* Eyeblack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57407577271E6B5C00EBB494 /* Eyeblack.swift */; };
+		577FAC10271F00750066C609 /* appleview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FAC0F271F00750066C609 /* appleview.swift */; };
 		57996D232716D76D00FE55A0 /* devokatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D222716D76D00FE55A0 /* devokatApp.swift */; };
 		57996D252716D76D00FE55A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57996D242716D76D00FE55A0 /* ContentView.swift */; };
 		57996D272716D77700FE55A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57996D262716D77700FE55A0 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		57407574271E680400EBB494 /* Eye.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye.swift; sourceTree = "<group>"; };
 		57407577271E6B5C00EBB494 /* Eyeblack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eyeblack.swift; sourceTree = "<group>"; };
+		577FAC0F271F00750066C609 /* appleview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleview.swift; sourceTree = "<group>"; };
 		57996D1F2716D76D00FE55A0 /* devokat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = devokat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57996D222716D76D00FE55A0 /* devokatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devokatApp.swift; sourceTree = "<group>"; };
 		57996D242716D76D00FE55A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,8 +42,6 @@
 		57996D162716D76D00FE55A0 = {
 			isa = PBXGroup;
 			children = (
-				57407577271E6B5C00EBB494 /* Eyeblack.swift */,
-				57407574271E680400EBB494 /* Eye.swift */,
 				57996D212716D76D00FE55A0 /* devokat */,
 				57996D202716D76D00FE55A0 /* Products */,
 			);
@@ -58,8 +58,11 @@
 		57996D212716D76D00FE55A0 /* devokat */ = {
 			isa = PBXGroup;
 			children = (
+				57407574271E680400EBB494 /* Eye.swift */,
+				57407577271E6B5C00EBB494 /* Eyeblack.swift */,
 				57996D222716D76D00FE55A0 /* devokatApp.swift */,
 				57996D242716D76D00FE55A0 /* ContentView.swift */,
+				577FAC0F271F00750066C609 /* appleview.swift */,
 				57996D262716D77700FE55A0 /* Assets.xcassets */,
 				57996D2B2716D77700FE55A0 /* Info.plist */,
 				57996D282716D77700FE55A0 /* Preview Content */,
@@ -147,6 +150,7 @@
 				57996D252716D76D00FE55A0 /* ContentView.swift in Sources */,
 				57407578271E6B5C00EBB494 /* Eyeblack.swift in Sources */,
 				57996D232716D76D00FE55A0 /* devokatApp.swift in Sources */,
+				577FAC10271F00750066C609 /* appleview.swift in Sources */,
 				57407575271E680400EBB494 /* Eye.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

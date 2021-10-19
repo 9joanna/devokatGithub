@@ -120,11 +120,11 @@ struct ContentView: View {
             .frame(width: 210, height: 280)
             .offset(x: -100, y: -115)
 
+            appleview()
             Text("Ｈi ! I'm ＡＬＦＯ!")
-            .font(.title)
-            .foregroundColor(.yellow)
-            .shadow(color: .gray, radius: 2, x: 0, y: 15)
-            .offset(x: 0, y: 200)
+                .foregroundColor(.yellow)
+                .shadow(color: .gray, radius: 2, x: 0, y: 15)
+                .offset(x: 0, y: 250)
         }
     }
 }
